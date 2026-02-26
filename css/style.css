@@ -161,6 +161,96 @@
   color: #111111;
 }
 
+/* موبايل */
+@media (max-width: 576px) {
+  .cart {
+    width: 100%;
+    right: -100%;
+    padding: 16px 12px 20px 16px;
+  }
+
+  .cart .items_in_cart .item_cart {
+    height: auto;
+    min-height: 110px;
+    gap: 12px;
+    padding: 10px;
+  }
+
+  .cart .items_in_cart .item_cart img {
+    width: 90px;
+  }
+
+  .cart .items_in_cart .item_cart h4 {
+    font-size: 13px;
+  }
+
+  .cart .bottom_cart .button_cart {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .cart .bottom_cart .btn_cart {
+    padding: 12px;
+  }
+}
+
+/* تابلت */
+@media (min-width: 577px) and (max-width: 767px) {
+  .cart {
+    width: 80%;
+    right: -80%;
+    padding: 20px 14px 24px 20px;
+  }
+
+  .cart .items_in_cart .item_cart img {
+    width: 100px;
+  }
+
+  .cart .items_in_cart .item_cart h4 {
+    font-size: 14px;
+  }
+}
+
+/* لاب توب */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .cart {
+    width: 60%;
+    right: -60%;
+    padding: 24px 16px 30px 24px;
+  }
+
+  .cart .items_in_cart .item_cart {
+    height: 130px;
+  }
+
+  .cart .items_in_cart .item_cart img {
+    width: 110px;
+  }
+
+  .cart .bottom_cart .button_cart {
+    flex-direction: row;
+    gap: 16px;
+  }
+}
+
+/*ديسكتوب */
+@media (min-width: 1024px) {
+  .cart {
+    width: 38%;
+    right: -38%;
+    padding: 30px 16px 30px 30px;
+  }
+}
+
+/* شاشات كبيرةا  */
+@media (min-width: 1400px) {
+  .cart {
+    width: 420px;
+    max-width: 420px;
+    right: -420px;
+  }
+}
+
 
 /* header */
 .bg-card {
