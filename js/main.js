@@ -21,8 +21,9 @@ function open_close_cart() {
 
 //button of sign-in page
   document.getElementById("loginBtn").onclick = function() {
-    window.location.href = "./Sign-in.html"
+    window.location.href = "Sign-in.html"
   }
+
 
 
 
